@@ -26,10 +26,13 @@ The timetable displays the weekly schedule for **CSE(B) Semester 1**. It makes u
 
 ## 🎨 Features
 
-✔️ Clear subject differentiation using colors.
-✔️ Easy-to-read timetable layout.
-✔️ Covers Monday–Saturday with all major courses and labs.
-✔️ Responsive-friendly table alignment (centered).
+✔️ Clear subject differentiation using colors.      
+
+✔️ Easy-to-read timetable layout.                  
+
+✔️ Covers Monday–Saturday with all major courses and labs.                    
+
+✔️ Responsive-friendly table alignment (centered).           
 
 ---
 
