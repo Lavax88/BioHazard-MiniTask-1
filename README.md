@@ -1,5 +1,3 @@
----
-
 # 📅 CSE(B) S1 Weekly Timetable
 
 This repository contains my submission for **Biohazard Minitask 1**. The task was to design a **weekly timetable** using **HTML** and apply proper styling for readability and clarity.
@@ -54,8 +52,8 @@ Here’s a snapshot of the timetable design:
 
 ## ✨ Example Subjects Color Code
 
-| Subject     | Color                                                                          |
-| ----------- | ------------------------------------------------------------------------------ |
+| Subject     | Color           |
+| ----------- | ----------------|
 | Chemistry   |  Light Salmon   |
 | Graphics    |  Lavender       |
 | Python      |  Light Green    |
@@ -65,5 +63,3 @@ Here’s a snapshot of the timetable design:
 | LSPC        |  Teal           |
 | Language    |  Grey           |
 | Activities  |  Brownish Grey  |
-
----
