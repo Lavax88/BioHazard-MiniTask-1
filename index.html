@@ -1,70 +1,112 @@
 <html>
     <head>
         <title>Weekly TimeTable</title>
-        
-        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" align="center"> <img alt="AISAT Logo"  width="75" height="75" style="vertical-align:middle" src="assets/aisat logo.png">  Albertian Institute of Science And Technology</h1>
-        <h1 style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" align="center">CSE(B) S1 TimeTable</h1>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
+        <style>
+            body {
+                background-color: #f8f9fa;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            h1 {
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+            }
+
+            h1 img {
+                vertical-align: middle;
+                width: 75px;
+                height: 75px;
+            }
+
+            table {
+                border-radius: .5em;
+                font-family: 'Poppins', sans-serif;
+                background-color: #ffffff;
+                border-collapse: seperate;
+                border-spacing: 1px ;
+                margin: 0 auto;
+            }
+
+            th,td {
+                border: 2px;
+                border-radius: 3px;
+                border-style: solid;
+                padding: 5px;
+                text-align: center;
+                border
+            }
+
+            td {
+                background-color: #f8f9fa;
+            }
+            th {
+                background-color: rgb(227, 196, 255);
+            }
+        </style>
+
+        <h1> <img alt="AISAT Logo" src="assets/aisat logo.png">  Albertian Institute of Science And Technology</h1>
+        <h1>CSE(B) S1 TimeTable</h1>
     </head>
     <body>
-        <table style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif" cellspacing="5" cellpadding="5" border="2px" align="center">
+        <table cellspacing="2" cellpadding="5">
             <tr>
-                <th>Time</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-                <th>Saturday</th>
-            </tr>
-            <tr>
-                <th>08:00 - 08:45 </th>
-                <td rowspan="2">Chemistry Lab</td>
-                <td rowspan="2">Graphics</td>
-                <td>Electronics</td>
-                <td>LSPC</td>
-                <td>LSPC</td>
-                <td>Electrical</td>
-            </tr>
-            <tr>
+                <th>Day / Time</th>
+                <th>08:00 - 08:45</th>
                 <th>09:10 - 09:55</th>
-                <td>Python</td>
-                <td>Chemistry</td>
-                <td>Python</td>
-                <td>Graphics</td>
-            </tr>
-            <tr>
                 <th>10:00 - 10:45</th>
-                <td>Python</td>
-                <td>Chemistry</td>
-                <td>Mathematics</td>
-                <td rowspan="2">Mathematics</td>
-                <td rowspan="2">Python Lab</td>
-                <td>Electronics</td>
-            </tr>
-            <tr>
                 <th>10:50 - 11:35</th>
-                <td rowspan="2"> Electrical WS</td>
+                <th>11:55 - 12:40</th>
+                <th>12:45 - 01:30</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td colspan="2">Chemistry Lab</td>
+                <td>Python</td>
+                <td colspan="2">Electrical WS</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td colspan="2">Graphics</td>
+                <td>Chemistry</td>
                 <td>Electronics</td>
                 <td>Electrical</td>
-                <td>Activity</td>
+                <td>LSPC</td>
             </tr>
             <tr>
-                <th>11:55 - 12:40</th>
+                <th>Wednesday</th>
+                <td>Electronics</td>
+                <td>Python</td>
+                <td>Mathematics</td>
                 <td>Electrical</td>
                 <td>Chemistry</td>
-                <td rowspan="2">Graphics</td>
-                <td rowspan="2">Electronics WS</td>
-                <td>Chemistry</td>
+                <td>Language</td>
             </tr>
             <tr>
-                <th>12:45 - 01:30</th>
-                <td>Mathematics</td>
+                <th>Thursday</th>
                 <td>LSPC</td>
-                <td>Language</td>
+                <td>Chemistry</td>
+                <td colspan="2">Mathematics</td>
+                <td colspan="2">Graphics</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td>LSPC</td>
+                <td>Python</td>
+                <td colspan="2">Python Lab</td>
+                <td colspan="2">Electronics WS</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td>Electrical</td>
+                <td>Graphics</td>
+                <td>Electronics</td>
+                <td>Activity</td>
+                <td>Chemistry</td>
                 <td>Python</td>
             </tr>
-
         </table>
     </body>
 </html>
