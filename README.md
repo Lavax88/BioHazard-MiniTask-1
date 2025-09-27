@@ -1,19 +1,21 @@
 # 📅 CSE(B) S1 Weekly Timetable
 
 This repository contains my submission for **Biohazard Minitask 1**.
-It is a simple, clean **HTML timetable** for **Albertian Institute of Science and Technology – CSE(B), Semester 1**.
+It is a modern, styled **HTML timetable** for **Albertian Institute of Science and Technology – CSE(B), Semester 1**.
 
 ---
 
 ## 🚀 Project Overview
 
-The timetable displays the weekly academic schedule in a structured table format.
-Highlights of this project:
+The timetable displays the **weekly academic schedule** in a clean and structured design.
 
-* 🖼️ Includes **AISAT logo** for branding.
-* 📑 Uses **HTML tables** with `rowspan` to handle multi-hour classes.
-* 🎨 Minimal inline styling for readability.
-* 🕒 Covers all classes from **Monday–Saturday**.
+✨ Key Features:
+
+* 🖼️ **AISAT logo** for institutional branding.
+* 🎨 **Modern UI** with Google Fonts (**Poppins**) and soft colors.
+* 📊 **Day vs. Time format** → Days as rows, time slots as columns.
+* 🔄 **Merged cells (colspan)** for labs and extended sessions.
+* 🌐 Minimal and professional styling with rounded table corners.
 
 ---
 
@@ -21,9 +23,9 @@ Highlights of this project:
 
 ```
 📦 Biohazard-Minitask-1
- ├── index.html        # Main project file
+ ├── index.html          # Main project file
  └── assets/
-      └── aisat logo.png   # Institute logo used in the timetable
+      └── aisat logo.png # Institute logo used in the timetable
 ```
 
 ---
@@ -33,12 +35,14 @@ Highlights of this project:
 Here’s how the timetable looks in the browser:
 
 ![Preview](https://github.com/Lavax88/BioHazard-MiniTask-1/blob/main/assets/preview.png)
+
 ---
 
 ## 🛠️ Technologies Used
 
 * **HTML5**
-* **Basic CSS (inline styles)**
+* **CSS (internal styles)**
+* **Google Fonts (Poppins)**
 
 ---
 
